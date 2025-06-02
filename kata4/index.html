@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Boutique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #products, #cart {
+            margin-top: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 12px;
+            margin-bottom: 12px;
+            display: flex;
+            gap: 15px;
+        }
+        .product img {
+            width: 100px;
+            height: auto;
+        }
+        .cart-item {
+            border-bottom: 1px solid #eee;
+            padding: 6px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Météo</h1>
+
+    
+    <input type="text" id="searchInput" placeholder="Entrez une ville..." />
+    <button id="searchBtn">Rechercher</button>
+    
+    <div id="weatherResult"></div>
+
+    
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
